@@ -23,12 +23,30 @@
 
 (require 'cl-lib)
 
+(defface powerline-active-dark '((t (:background "grey22" :foreground "grey60" :inherit mode-line)))
+  "Bad ass mode-line dark darkness - active."
+  :group 'powerline)
+
+(defface powerline-active-medium '((t (:background "grey40" :foreground "white" :inherit mode-line)))
+  "Bad ass mode-line medium darkness - active."
+  :group 'powerline)
+
 (defface powerline-active1 '((t (:background "grey22" :inherit mode-line)))
   "Powerline face 1."
   :group 'powerline)
 
 (defface powerline-active2 '((t (:background "grey40" :inherit mode-line)))
   "Powerline face 2."
+  :group 'powerline)
+
+(defface powerline-inactive-dark
+  '((t (:background "grey11" :inherit mode-line-inactive)))
+  "Bad ass mode-line dark darkness - inactive."
+  :group 'powerline)
+
+(defface powerline-inactive-medium
+  '((t (:background "grey20" :inherit mode-line-inactive)))
+  "Bad ass mode-line medium darkness - inactive."
   :group 'powerline)
 
 (defface powerline-inactive1
